@@ -23,7 +23,7 @@ export default function SliderTestimonial() {
   }, []);
 
   return (
-    <div className="mt-32 flex flex-col gap-4 items-center ">
+    <section className=" flex flex-col gap-4 items-center py-16 pb-[200px] bg-gradient-to-r from-purple-800 to-indigo-900">
       <div className="uppercase flex flex-col gap-4 leading-10 mt-5 mb-5">
         <h1 className="text-orange-600 text-6xl font-bold  mx-auto">TEAM</h1>
 
@@ -76,7 +76,7 @@ export default function SliderTestimonial() {
           Our Best OurExpertise
         </span>
       </div>
-      <div className="w-full h-[50vh]  mb-11 bg-slate-700 flex items-center justify-center">
+      <div className="w-full h-[50vh]  mb-11 flex items-center justify-center">
         {/*<!-- Component: Testimonial slider --> */}
 
         <div className="relative w-[100vh]   glide-08">
@@ -638,6 +638,6 @@ export default function SliderTestimonial() {
 
         {/*<!-- End Testimonial slider --> */}
       </div>
-    </div>
+    </section>
   );
 }
