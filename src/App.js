@@ -12,6 +12,7 @@ import OurPortfolioSection from "./components/OurPortfolioSection";
 import SquishyCard from "./components/SquishyCard";
 
 import StatisticSection from "./components/StatisticSection";
+import OurProcess from "./components/OurProcess";
 // import OurExpertise from "./components/OurExpertise";
 // import OurWork from "./components/OurWorks";
 
@@ -21,13 +22,13 @@ function App() {
       <Navbar />
       <ImagBgShifter />
       <OurForteSection />
-      {/* <SquishyCard /> */}
 
       <OurClient />
       <OurPortfolioSection />
       <AboutUsSection />
       {/* <OurWork /> */}
       <StatisticSection />
+      <OurProcess />
       <SliderTestimonial />
       <FooterSection />
     </div>
