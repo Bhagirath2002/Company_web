@@ -2,7 +2,7 @@ import React from "react";
 
 function StatisticSection() {
   return (
-    <div className="mt-20">
+    <div className="mt-9">
       <h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 sm:mb-0 mb-12">
         Our Service <br class="md:block hidden" />
       </h1>
@@ -10,12 +10,12 @@ function StatisticSection() {
         <img
           src="https://i.ibb.co/KjrPCyW/map.png"
           alt="world map image"
-          class="w-full xl:h-full h-70 object-cover  sm:block hidden"
+          class="w-full max-h-screen object-cover  sm:block hidden"
         />
         <img
           src="https://i.ibb.co/SXKj9Mf/map-bg.png"
           alt="mobile-image"
-          class="sm:hidden -mt-10 block w-full h-96 object-cover absolute z-0"
+          class="sm:hidden -mt-10 block w-full h-80 object-cover absolute z-0"
         />
 
         <div class="shadow-lg xl:p-6 p-4 sm:w-auto w-full bg-white sm:absolute relative z-20 sm:mt-0 mt-4 left-0 xl:ml-56 sm:ml-12 xl:-mt-40 sm:-mt-12">

@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        city1: "url('/src/assets/city1.png')",
+        city2: "url('/src/assets/city2.png')",
+        city3: "url('/src/assets/city3.png')",
+        planet1: "url('/src/assets/planet1.png')",
+      },
+    },
   },
   plugins: [require("taos/plugin")],
   safelist: [
