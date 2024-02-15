@@ -9,6 +9,20 @@ module.exports = {
         city3: "url('/src/assets/city3.png')",
         planet1: "url('/src/assets/planet1.png')",
       },
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        yt: "rgba(0,0,12,0)",
+
+        white: "#ffffff",
+
+        "bubble-gum": "#ff77e9",
+
+        stone: "#fdfefe",
+        dark: "#002639",
+        green: "#7be495",
+        lightBlue: "#f2f6fe",
+      },
     },
   },
   plugins: [require("taos/plugin")],

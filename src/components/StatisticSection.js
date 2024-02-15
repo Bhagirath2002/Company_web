@@ -8,12 +8,12 @@ function StatisticSection() {
       </h1>
       <div class="md:mt-7 mt-2 relative sm:flex items-center justify-center">
         <img
-          src="https://i.ibb.co/KjrPCyW/map.png"
+          src = {require("../assets/bg8.png")}
           alt="world map image"
           class="w-full max-h-screen object-cover  sm:block hidden"
         />
         <img
-          src="https://i.ibb.co/SXKj9Mf/map-bg.png"
+          src = {require("../assets/bg8.png")}
           alt="mobile-image"
           class="sm:hidden -mt-10 block w-full h-80 object-cover absolute z-0"
         />

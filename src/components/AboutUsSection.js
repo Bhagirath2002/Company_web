@@ -24,7 +24,7 @@ function AboutUsSection() {
   }, []);
 
   return (
-    <div className=" bg-slate-500 flex  justify-center items-center h-screen">
+    <div className=" bg-slate-300 flex  justify-center items-center h-screen">
       <style>
         {`
           @keyframes leftMotion {
@@ -46,27 +46,21 @@ function AboutUsSection() {
           }
         `}
       </style>
-      {/* <div className="w-1/2 flex justify-center items-center" ref={leftRef}>
-        <div className="bg-blue-500 p-6 rounded-lg shadow-lg">
-          <h1 className="text-white">Left Div</h1>
-        </div>
-      </div> */}
 
       <div className="w-1/2 flex justify-center items-center" ref={leftRef}>
-        <div className="bg-blue-500 p-6 rounded-lg shadow-lg">
-          <h1 className="text-white">Left Div</h1>
+        <div className="p-6 rounded-lg shadow-lg">
           <img
             src={aboutSectionImg}
             alt="About Section"
-            className="mt-4 rounded-lg"
+            className="mt-4 rounded-lg object-contain"
           />
         </div>
       </div>
 
       <div className="w-1/3 flex justify-center items-center" ref={rightRef}>
-        <div className=" p-6 rounded-lg shadow-lg opacity-50 flex flex-col gap-16">
-          <h1 className="text-white text-4xl font-bold">ABOUT US</h1>
-          <p className="text-white text-lg">
+        <div className="bg-slate-400   p-6 rounded-lg shadow-lg opacity-50 flex flex-col gap-16">
+          <h1 className="text-4xl text-dark font-bold">ABOUT US</h1>
+          <p className="text-dark  text-xl">
             We're Developers, We just happen to be doing Development. D&W tech
             is the fruit of a handful of engineers and creative artists based in
             India coming together to pursue a hunch they had: the world could
@@ -75,7 +69,7 @@ function AboutUsSection() {
             <ul class="max-w-md space-y-1  list-inside ">
               <li class="flex items-center">
                 <svg
-                  class="w-8 h-7 me-2 text-orange-600 flex-shrink-0"
+                  class="w-8 h-7 me-2 text-dark flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -87,7 +81,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2 text-orange-600  flex-shrink-0"
+                  class="w-9 h-7 me-2  flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -99,7 +93,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2 text-orange-600 flex-shrink-0"
+                  class="w-9 h-7 me-2 flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -111,7 +105,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2 text-orange-600 flex-shrink-0"
+                  class="w-9 h-7 me-2  flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"

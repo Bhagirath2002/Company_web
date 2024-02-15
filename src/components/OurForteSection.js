@@ -4,15 +4,13 @@ import { motion } from "framer-motion";
 function OurForteSection() {
   return (
     <div>
-      <section className=" py-40 pb-[200px] bg-gradient-to-r from-blue-500 to-red-500">
+      <section className=" py-40 pb-[200px] bg-lightBlue">
         <div className=" max-w-7xl mx-auto px-10 sm:px-6 lg:px-8 text-justify">
-          <div class="flex flex-row gap-5   justify-center items-center bg-gray-500 h-screen py-6">
+          <div class="flex flex-row gap-5   justify-center items-center bg-cyan-100 h-screen py-6">
             <div className="flex flex-col gap-5">
               <div className="">
-                <h1 className="text-5xl font-extrabold text-orange-500">
-                  OUR FORTE
-                </h1>
-                <p className="mt-4 text-2xl font-semibold text-gray-300">
+                <h1 className="text-5xl font-extrabold text-dark">OUR FORTE</h1>
+                <p className="mt-4 text-2xl font-semibold text-slate-900">
                   Making Website that boost your Business
                 </p>
               </div>
@@ -29,7 +27,7 @@ function OurForteSection() {
                         scale: 1.05,
                       },
                     }}
-                    className="relative h-96 w-80 shrink-0 overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-red-500 p-6"
+                    className="relative h-96 w-80 shrink-0 overflow-hidden rounded-xl bg-cyan-100 p-6"
                   >
                     <div className="relative z-10 text-white">
                       <span className="mb-3 block w-fit rounded-full bg-white/30 px-3 py-0.5 text-sm font-light text-white">
@@ -62,7 +60,7 @@ function OurForteSection() {
                       Get it now
                     </button> */}
 
-                    <motion.svg
+                    {/* <motion.svg
                       width="320"
                       height="384"
                       viewBox="0 0 320 384"
@@ -114,7 +112,7 @@ function OurForteSection() {
                         ry="43.5"
                         fill="#262626"
                       />
-                    </motion.svg>
+                    </motion.svg> */}
                   </motion.div>
                 </div>
               </section>
@@ -151,10 +149,9 @@ function OurForteSection() {
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         >
-                          {" "}
-                          <polyline points="19 1 23 5 19 9" />{" "}
-                          <line x1="15" y1="5" x2="23" y2="5" />{" "}
-                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                          {/* <polyline points="19 1 23 5 19 9" />{" "}
+                          <line x1="15" y1="5" x2="23" y2="5" />{" "} */}
+                          {/* <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /> */}
                           {/* <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> */}
                         </svg>
                       </a>
@@ -180,11 +177,8 @@ function OurForteSection() {
                         they'd be excited join as learner.
                       </p>
                     </div>
-                    {/* <button className="absolute bottom-4 left-4 right-4 z-20 rounded border-2 border-white bg-white py-2 text-center font-mono font-black uppercase text-neutral-800 backdrop-blur transition-colors hover:bg-white/30 hover:text-white">
-                      Get it now
-                    </button> */}
-                    {/* <Background /> */}
-                    <motion.svg
+
+                    {/* <motion.svg
                       width="320"
                       height="384"
                       viewBox="0 0 320 384"
@@ -200,43 +194,7 @@ function OurForteSection() {
                         duration: 1,
                         ease: "backInOut",
                       }}
-                    >
-                      <motion.circle
-                        variants={{
-                          hover: {
-                            scaleY: 0.5,
-                            y: -25,
-                          },
-                        }}
-                        transition={{
-                          duration: 1,
-                          ease: "backInOut",
-                          delay: 0.2,
-                        }}
-                        cx="160.5"
-                        cy="114.5"
-                        r="101.5"
-                        fill="#262626"
-                      />
-                      <motion.ellipse
-                        variants={{
-                          hover: {
-                            scaleY: 2.25,
-                            y: -25,
-                          },
-                        }}
-                        transition={{
-                          duration: 1,
-                          ease: "backInOut",
-                          delay: 0.2,
-                        }}
-                        cx="160.5"
-                        cy="265.5"
-                        rx="101.5"
-                        ry="43.5"
-                        fill="#262626"
-                      />
-                    </motion.svg>
+                    ></motion.svg> */}
                   </motion.div>
                 </div>
               </section>
@@ -288,7 +246,7 @@ function OurForteSection() {
                       Get it now
                     </button> */}
 
-                    <motion.svg
+                    {/* <motion.svg
                       width="320"
                       height="384"
                       viewBox="0 0 320 384"
@@ -340,7 +298,7 @@ function OurForteSection() {
                         ry="43.5"
                         fill="#262626"
                       />
-                    </motion.svg>
+                    </motion.svg> */}
                   </motion.div>
                 </div>
               </section>
@@ -394,7 +352,7 @@ function OurForteSection() {
                       Get it now
                     </button> */}
 
-                    <motion.svg
+                    {/* <motion.svg
                       width="320"
                       height="384"
                       viewBox="0 0 320 384"
@@ -446,7 +404,7 @@ function OurForteSection() {
                         ry="43.5"
                         fill="#262626"
                       />
-                    </motion.svg>
+                    </motion.svg> */}
                   </motion.div>
                 </div>
               </section>
@@ -496,7 +454,7 @@ function OurForteSection() {
                       Get it now
                     </button> */}
 
-                    <motion.svg
+                    {/* <motion.svg
                       width="320"
                       height="384"
                       viewBox="0 0 320 384"
@@ -548,7 +506,7 @@ function OurForteSection() {
                         ry="43.5"
                         fill="#262626"
                       />
-                    </motion.svg>
+                    </motion.svg> */}
                   </motion.div>
                 </div>
               </section>

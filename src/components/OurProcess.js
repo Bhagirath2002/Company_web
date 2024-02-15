@@ -9,7 +9,7 @@ import { ServiceData } from "../Api/Data";
 
 const LeftContent = () => (
   <div className="flex flex-col  gap-3  items-center justify-center h-screen bg-gray-200  px-20">
-    <h1 className="text-3xl font-bold  mb-5">OUR PROCESS</h1>
+    <h1 className="text-3xl  text-dark font-bold  mb-5">OUR PROCESS</h1>
     <p className="text-lg text-justify hover:scale-105  transform transition-transform flex mx-10">
       Listen. Question. Understand. Brainstorm. Design. Development. Fine-tune.
       And Deploy. We view the process of development as a process of
