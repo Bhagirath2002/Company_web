@@ -2,13 +2,11 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <footer class="text-gray-400 bg-gray-900 body-font">
+    <footer class="text-gray-400  bg-gradient-to-t from-gray-900 to-gray-700  body-font">
       <div class="container px-20 py-24 mx-auto flex md:items-center lg:items-start md:flex-col md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0  md:mx-0 mx-auto text-center md:text-left">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-white"></a>
-          {/* <p class="mt-2 text-sm text-gray-500">
-            Air plant banjo lyft occupy retro adaptogen indego
-          </p> */}
+         
         </div>
         <div class="flex-grow flex  justify-between flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div class="lg:w-2/5 md:w-1/2 w-full px-4">
@@ -141,7 +139,7 @@ function FooterSection() {
             </a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a class="text-gray-400  hover:text-green-600 hover:scale-150">
+            <a class="text-gray-400  hover:text-yellow-600 hover:scale-150">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -153,7 +151,7 @@ function FooterSection() {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a class="ml-3 text-gray-400 hover:text-green-600 hover:scale-150">
+            <a class="ml-3 text-gray-400 hover:text-yellow-600 hover:scale-150">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -165,7 +163,7 @@ function FooterSection() {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a class="ml-3 text-gray-400  hover:text-green-600 hover:scale-150">
+            <a class="ml-3 text-gray-400  hover:text-yellow-600 hover:scale-150">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -179,7 +177,7 @@ function FooterSection() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a class="ml-3 text-gray-400  hover:text-green-600 hover:scale-150">
+            <a class="ml-3 text-gray-400  hover:text-yellow-600 hover:scale-150">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -196,7 +194,7 @@ function FooterSection() {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </a>
-            <a class="ml-3 text-gray-400  hover:text-green-600 hover:scale-150">
+            <a class="ml-3 text-gray-400  hover:text-yellow-600 hover:scale-150">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

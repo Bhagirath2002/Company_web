@@ -68,7 +68,7 @@ function Homepage() {
       {/* <OurWork /> */}
       <StatisticSection />
       <OurProcess />
-      <SliderTestimonial />
+      {/* <SliderTestimonial /> */}
       <FooterSection />
     </div>
   );
