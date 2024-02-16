@@ -1,25 +1,12 @@
-import React from "react";
+import { FaArrowRight } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <header class="scrolled z-20 shadow-2xl border-b-0 text-dark bg-stone body-font fixed flex w-full h-20   items-center justify-between flex-wrap  m-auto top-0 animated">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+    <header class="scrolled z-[99]  shadow-2xl border-b-0 text-dark bg-stone sticky flex w-full h-[14vh]   items-center justify-between flex-wrap  m-auto top-0 ">
+      <div class="container mx-auto flex flex-wrap px-14 flex-col md:flex-row items-center justify-center">
         <a class="flex title-font font-medium items-center justify-center text-white mb-4 md:mb-0">
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg> */}
-
           <img
-            className="object-contain w-60 h-16"
+            className="object-contain w-60 h-full"
             src={require("../assets/D&Wlogo.png")}
             alt="logo"
           />
@@ -27,27 +14,18 @@ function Navbar() {
             <span>D&W</span>tech
           </span> */}
         </a>
-        <nav class=" md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-green">Home</a>
-          <a class="mr-5 hover:text-green">About Us</a>
-          <a class="mr-5 hover:text-green">Work</a>
-          <a class="mr-5 hover:text-green">Services</a>
-          <a class="mr-5 hover:text-green">Contact Us</a>
-        </nav>
-        <button class=" hover:text-green inline-flex items-center bg-slate-300 border-0 py-3 px-4 focus:outline-none hover:bg-slate-400 rounded text-base mt-4 md:mt-0">
-          Let's Start
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-5 h-5 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
+        <nav class=" md:ml-auto gap-5 flex flex-wrap items-center text-lg font-[500]  justify-center">
+          <a class=" hover:text-yellow-600">Home</a>
+          <a class=" hover:text-yellow-600">About Us</a>
+          <a class=" hover:text-yellow-600">Work</a>
+          <a class=" hover:text-yellow-600">Services</a>
+          <a class=" hover:text-yellow-600">Contact Us</a>
+          <button class="gap-2 flex items-center bg-slate-300 border-0 py-3 px-4 focus:outline-none hover:bg-[#FFA808] hover:text-white rounded-full text-base mt-4 md:mt-0 transition-all duration-300 ease-linear">
+          <span className="flex items-center gap-1 h-full w-full ">Lets Start <FaArrowRight className="text-xl pt-1" /></span> 
+     
         </button>
+        </nav>
+        
       </div>
     </header>
   );

@@ -9,7 +9,7 @@ export const ImagesSlider = ({
   overlayClassName,
   className,
   autoplay = true,
-  direction = "up",
+  direction = "left",
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);

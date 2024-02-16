@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "tailwindcss/tailwind.css";
-import aboutSectionImg from "../assets/AboutSectionImg3.jpg";
+import aboutSectionImg from "../assets/ab.png";
 
 function AboutUsSection() {
   const leftRef = useRef(null);
@@ -24,7 +24,7 @@ function AboutUsSection() {
   }, []);
 
   return (
-    <div className=" bg-slate-300 flex  justify-center items-center h-screen">
+    <div className=" bg-slate-300 flex  justify-center items-center gap-2 h-screen">
       <style>
         {`
           @keyframes leftMotion {
@@ -47,8 +47,8 @@ function AboutUsSection() {
         `}
       </style>
 
-      <div className="w-1/2 flex justify-center items-center" ref={leftRef}>
-        <div className="p-6 rounded-lg shadow-lg">
+      <div className="w-[40%] flex justify-center items-center" ref={leftRef}>
+        <div className="p-6 rounded-lg">
           <img
             src={aboutSectionImg}
             alt="About Section"
@@ -57,10 +57,10 @@ function AboutUsSection() {
         </div>
       </div>
 
-      <div className="w-1/3 flex justify-center items-center" ref={rightRef}>
-        <div className="bg-slate-400   p-6 rounded-lg shadow-lg opacity-50 flex flex-col gap-16">
-          <h1 className="text-4xl text-dark font-bold">ABOUT US</h1>
-          <p className="text-dark  text-xl">
+      <div className="w-[50%] flex justify-center items-center" ref={rightRef}>
+        <div className="p-6 rounded-lg shadow-md flex flex-col gap-5">
+          <h1 className="text-4xl text-black font-bold">ABOUT US</h1>
+          <p className="text-black">
             We're Developers, We just happen to be doing Development. D&W tech
             is the fruit of a handful of engineers and creative artists based in
             India coming together to pursue a hunch they had: the world could
@@ -69,7 +69,7 @@ function AboutUsSection() {
             <ul class="max-w-md space-y-1  list-inside ">
               <li class="flex items-center">
                 <svg
-                  class="w-8 h-7 me-2 text-dark flex-shrink-0"
+                  class="w-8 h-7 me-2 text-[#FFA808] flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -81,7 +81,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2  flex-shrink-0"
+                  class="w-9 h-7 me-2 text-[#FFA808] flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -93,7 +93,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2 flex-shrink-0"
+                  class="w-9 h-7 me-2 text-[#FFA808] flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -105,7 +105,7 @@ function AboutUsSection() {
               </li>
               <li class="flex items-center">
                 <svg
-                  class="w-9 h-7 me-2  flex-shrink-0"
+                  class="w-9 h-7 me-2   text-[#FFA808] flex-shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -117,6 +117,9 @@ function AboutUsSection() {
               </li>
             </ul>
           </p>
+          <button className=" py-3 mt-4  px-5 rounded-xl bg-[#FFA808] hover:bg-slate-300 transition-all duration-300 ease-linear hover:text-[#FFA808] w-fit">
+            Learn More
+          </button>
         </div>
       </div>
     </div>
