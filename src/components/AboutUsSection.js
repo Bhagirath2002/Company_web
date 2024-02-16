@@ -24,7 +24,7 @@ function AboutUsSection() {
   }, []);
 
   return (
-    <div className=" bg-slate-300 flex  justify-center items-center gap-2 h-screen">
+    <div id="about" className=" bg-slate-300 flex  justify-center items-center gap-2 h-screen">
       <style>
         {`
           @keyframes leftMotion {

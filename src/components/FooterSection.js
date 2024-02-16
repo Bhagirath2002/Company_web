@@ -2,11 +2,13 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <footer class="text-gray-400  bg-gradient-to-t from-gray-900 to-gray-700  body-font">
+    <footer
+      id="contact"
+      class="text-gray-400  bg-gradient-to-t from-gray-900 to-gray-700  body-font"
+    >
       <div class="container px-20 py-24 mx-auto flex md:items-center lg:items-start md:flex-col md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0  md:mx-0 mx-auto text-center md:text-left">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-white"></a>
-         
         </div>
         <div class="flex-grow flex  justify-between flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div class="lg:w-2/5 md:w-1/2 w-full px-4">
@@ -69,7 +71,6 @@ function FooterSection() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    {" "}
                     <path stroke="none" d="M0 0h24v24H0z" />{" "}
                     <path d="M12 20l-3 -3h-2a3 3 0 0 1 -3 -3v-6a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-2l-3 3" />{" "}
                     <line x1="8" y1="9" x2="16" y2="9" />{" "}
@@ -80,32 +81,34 @@ function FooterSection() {
                 </a>
               </li>
               <li>
-                <a class=" hover:text-white"></a>
+                {/* <a class=" hover:text-white"></a> */}
 
-                <a class="flex title-font font-medium items-center md:justify-start justify-center  hover:text-white">
-                  <svg
-                    class="h-8 w-7 "
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    {" "}
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />{" "}
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-
-                  <span class="ml-1 font-bold "> Park Me Safe Sol.Pvt Ltd</span>
+                <a class="flex title-font font-medium items-start md:justify-start justify-center hover:text-white">
+                  <span>
+                    <svg
+                      class="h-8 w-7 "
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      {" "}
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />{" "}
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                  </span>
+                  <span>
+                    <strong className="text-green"> Park Me Safe Sol.Pvt Ltd</strong>
+                    <br />
+                    Gadge Nagar,
+                    <br />
+                    Amravti, Maharashtra, India
+                    <br />
+                    444808
+                  </span>
                 </a>
-              </li>
-              <li>
-                <a class=" hover:text-white">Gadge Nagar,</a>
-
-                <a class=" hover:text-white">Amravati,Maharashtra,India</a>
-
-                <a class=" hover:text-white">444808</a>
               </li>
             </nav>
           </div>

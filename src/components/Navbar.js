@@ -10,22 +10,29 @@ function Navbar() {
             src={require("../assets/D&Wlogo.png")}
             alt="logo"
           />
-          {/* <span class="ml-3 text-xl">
-            <span>D&W</span>tech
-          </span> */}
         </a>
-        <nav class=" md:ml-auto gap-5 flex flex-wrap items-center text-lg font-[500]  justify-center">
-          <a class=" hover:text-yellow-600">Home</a>
-          <a class=" hover:text-yellow-600">About Us</a>
-          <a class=" hover:text-yellow-600">Work</a>
-          <a class=" hover:text-yellow-600">Services</a>
-          <a class=" hover:text-yellow-600">Contact Us</a>
+        <nav className=" md:ml-auto gap-5 flex flex-wrap items-center text-lg font-[500]  justify-center">
+          <a href="#home" className=" hover:text-yellow-600">
+            Home
+          </a>
+          <a href="#about" className=" hover:text-yellow-600">
+            About Us
+          </a>
+          <a href="#work" className=" hover:text-yellow-600">
+            Work
+          </a>
+          <a href="#services" className=" hover:text-yellow-600">
+            Services
+          </a>
+          <a href="#contact" className=" hover:text-yellow-600">
+            Contact Us
+          </a>
           <button class="gap-2 flex items-center bg-slate-300 border-0 py-3 px-4 focus:outline-none hover:bg-[#FFA808] hover:text-white rounded-full text-base mt-4 md:mt-0 transition-all duration-300 ease-linear">
-          <span className="flex items-center gap-1 h-full w-full ">Lets Start <FaArrowRight className="text-xl pt-1" /></span> 
-     
-        </button>
+            <span className="flex items-center gap-1 h-full w-full ">
+              Lets Start <FaArrowRight className="text-xl pt-1" />
+            </span>
+          </button>
         </nav>
-        
       </div>
     </header>
   );

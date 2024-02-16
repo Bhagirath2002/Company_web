@@ -2,18 +2,18 @@ import React from "react";
 
 function StatisticSection() {
   return (
-    <div className="mt-9">
+    <div id="services" className="mt-9">
       <h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 sm:mb-0 mb-12">
         Our Service <br class="md:block hidden" />
       </h1>
       <div class="md:mt-7 mt-2 relative sm:flex items-center justify-center">
         <img
-          src = {require("../assets/bg8.png")}
+          src={require("../assets/bg8.png")}
           alt="world map image"
           class="w-full max-h-screen object-cover  sm:block hidden"
         />
         <img
-          src = {require("../assets/bg8.png")}
+          src={require("../assets/bg8.png")}
           alt="mobile-image"
           class="sm:hidden -mt-10 block w-full h-80 object-cover absolute z-0"
         />

@@ -2,7 +2,7 @@ import BannerImage from "../assets/BannerImage.jpg";
 
 const Banner = () => {
   return (
-    <div className="h-[80vh]">
+    <div  id="home" className="h-[80vh]">
       <img
         src={BannerImage}
         alt="Banner Image"
